@@ -220,7 +220,11 @@ Finally, I learned that reconnaissance and scanning must always stay within an a
 
 ### WHOIS
 ![whois](images/1_whois.png)
+
+
 ![whois registrar record 1](images/1b_whois_registrar_1.png)
+
+
 ![whois registrar record 2](images/1c_whois_registrar_2.png)
 
 ### WhatWeb
@@ -240,15 +244,26 @@ Finally, I learned that reconnaissance and scanning must always stay within an a
 
 ### theHarvester (bonus)
 ![theHarvester help](images/7_theharvester_help.png)
+
 ![theHarvester baidu](images/7b_theharvester_baidu.png)
+
+
 ![theHarvester all sources 1](images/7c_theharvester_all_1.png)
+
+
 ![theHarvester all sources 2](images/7d_theharvester_all_2.png)
 
-### Zenmap (add your own screenshots)
+### Zenmap 
 
 ![zenmap ping scan](images/8_zenmap_ping_scan.png)
-!(images/quick_scan.png)
-!(images/ping_scan.png)
+
+**Results of Quick Scan**
+!images/quick_scan.png
+
+**Results of Ping Scan**
+!images/ping_scan.png
+
+**Topology**
 ![zenmap topology](images/wifi.png)
 -->
 
