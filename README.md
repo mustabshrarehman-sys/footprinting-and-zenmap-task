@@ -164,7 +164,6 @@ I first used the Windows `ipconfig` command to identify my local IP address and 
 | 3 | `192.168.100.40` | `80:9D:65:ED:D3:4E` |
 | 3 | `192.168.100.19` | `4C-EB-BD-0C-C7-E7` |
 
-> Use `ipconfig /all` to find the MAC address of your own PC (Zenmap does not show it for the local host).
 
 After completing the scan, I opened the **Topology** tab in Zenmap, enabled the legend and saved the network topology in PDF format as required by the practical task.
 
@@ -179,7 +178,7 @@ After completing the scan, I opened the **Topology** tab in Zenmap, enabled the 
 | 3 | HTTP technical information exposed | Curl returned headers and exposed `/wp-json/` and `x-nginx-cache` | Helps technology fingerprinting and further enumeration | 🟢 Low |
 | 4 | WAF technology identifiable | Wafw00f identified ModSecurity (SpiderLabs) | Reveals information about the security architecture | 🟢 Low |
 | 5 | DNS infrastructure and weak email policy | DNSRecon showed SOA/MX/TXT records, SPF `~all` (softfail), DNSSEC unsigned | Helps build an infrastructure profile; softfail SPF is weaker against email spoofing | 🟡 Medium |
-| 6 | Multiple live hosts visible on local network | Zenmap identified `[NUMBER]` live hosts | Unknown or unauthorized devices may be present on a network | 🟡 Medium |
+| 6 | Multiple live hosts visible on local network | Zenmap identified `4` live hosts | Unknown or unauthorized devices may be present on a network | 🟡 Medium |
 
 **Risk level key:** 🔴 Critical, 🟡 Medium, 🟢 Low
 
@@ -258,10 +257,10 @@ Finally, I learned that reconnaissance and scanning must always stay within an a
 ![zenmap ping scan](images/8_zenmap_ping_scan.png)
 
 **Results of Quick Scan**
-!images/quick_scan.png
+(images/quick_scan.png)
 
 **Results of Ping Scan**
-!images/ping_scan.png
+(images/ping_scan.png)
 
 **Topology**
 ![zenmap topology](images/wifi.png)
