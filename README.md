@@ -256,11 +256,14 @@ Finally, I learned that reconnaissance and scanning must always stay within an a
 
 ![zenmap ping scan](images/8_zenmap_ping_scan.png)
 
-**Results of Quick Scan**
-(images/quick_scan.png)
+### Results of Quick Scan
 
-**Results of Ping Scan**
-(images/ping_scan.png)
+![Quick Scan Results](images/quick_scan.png)
+
+### Results of Ping Scan
+
+![Ping Scan Results](images/ping_scan.png)
+
 
 **Topology**
 ![zenmap topology](images/wifi.png)
