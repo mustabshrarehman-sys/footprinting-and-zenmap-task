@@ -245,9 +245,11 @@ Finally, I learned that reconnaissance and scanning must always stay within an a
 ![theHarvester all sources 2](images/7d_theharvester_all_2.png)
 
 ### Zenmap (add your own screenshots)
-<!-- Save your screenshots in the images folder and uncomment these lines:
+
 ![zenmap ping scan](images/8_zenmap_ping_scan.png)
-![zenmap topology](images/9_zenmap_topology.png)
+!(images/quick_scan.png)
+!(images/ping_scan.png)
+![zenmap topology](images/wifi.png)
 -->
 
 ---
@@ -256,7 +258,7 @@ Finally, I learned that reconnaissance and scanning must always stay within an a
 
 ## 👤 Author
 
-**[Mustabshra Rehman]**
+**Mustabshra Rehman**
 Cybersecurity Professional, B084
 
 LinkedIn: https://www.linkedin.com/in/mustabshira-rehman-6bb4b7304/
