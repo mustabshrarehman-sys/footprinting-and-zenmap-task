@@ -6,7 +6,7 @@
 | Field | Details |
 |---|---|
 | **Pentester Name** (Cybersecurity Professional) | **Mustabshra Rehman** |
-| **Program/Batch** | [B084-Networkwalks] |
+| **Program/Batch** | B084-Networkwalks |
 | **Date** | 11 November 2026 |
 | **Modules completed** | W2-PM1 (Multiple Kali Tools), W2-PM5 (Zenmap Scanning) |
 | **Client/Target** | 1. Networkwalks (`networkwalks.com`, educational lab scope) <br> 2. My own local LAN network |
@@ -152,16 +152,17 @@ I first used the Windows `ipconfig` command to identify my local IP address and 
 
 | Item | My result |
 |---|---|
-| My local IP | `[YOUR IP]` |
-| LAN subnet | `[YOUR SUBNET, e.g. 192.168.1.0/24]` |
-| Scan command | `nmap -sn [YOUR SUBNET]` |
-| Live hosts found | `[NUMBER]` |
+| My local IP | `192.168.100.19` |
+| LAN subnet | `192.168.100.0/24` |
+| Scan command | `nmap -sn 192.168.100.0/24` |
+| Live hosts found | `4` |
 
 | # | IP address | MAC address |
 |---|---|---|
-| 1 | `[IP 1]` | `[MAC 1]` |
-| 2 | `[IP 2]` | `[MAC 2]` |
-| 3 | `[IP 3]` | `[MAC 3]` |
+| 1 | `192.168.100.1` | `5C:B3:95:1F:B3:8F` |
+| 2 | `192.168.100.8` | `C6:D4:0B:CB:28:36` |
+| 3 | `192.168.100.40` | `80:9D:65:ED:D3:4E` |
+| 3 | `192.168.100.19` | `4C-EB-BD-0C-C7-E7` |
 
 > Use `ipconfig /all` to find the MAC address of your own PC (Zenmap does not show it for the local host).
 
